@@ -1,0 +1,76 @@
+[{
+        "location": "hcm",
+        "city": "HỒ CHÍ MINH",
+        "img" : "hcm.jpg",
+        "stores" : [
+            {
+                "address" : "63 LÊ TRỌNG TẤN",
+                "img" : "hcm01.jpg",
+                "district": "Tân Phú"
+            },
+            {
+                "address" : "14B1 NGÔ TẤT TỐ",
+                "img" : "hcm02.jpg",
+                "district": "Bình Thạnh"
+            },
+            {
+                "address" : "197 XÔ VIẾT NGHỆ TĨNH",
+                "img" : "hcm03.jpg",
+                "district": "Bình Thạnh"
+            },
+            {
+                "address" : "02 ĐỐNG ĐA",
+                "img" : "hcm04.jpg",
+                "district" : "Tân Bình"
+            }
+        ]
+    },
+    {
+        "location" : "dn",
+        "city" : "ĐÀ NẴNG",
+        "img" : "dn.jpg",
+        "stores": [
+            {
+                "address" : "223 TRẦN PHÚ",
+                "img" : "dn01.jpg",
+                "district" : "Thanh Khê"
+            },
+            {
+                "address" : "435 LÊ DUẨN",
+                "img" : "dn02.jpg",
+                "district" : "Hải Châu"
+            },
+            {
+                "address" : "80 PASTEUR",
+                "img" : "dn03.jpg",
+                "district" : "Sơn Trà"
+            },
+            {
+                "address" : "273 TÔN ĐỨC THẮNG",
+                "img" : "dn04.jpg"
+            }
+        ]
+    },
+    {
+        "location" : "hn",
+        "city" : "HÀ NỘI",
+        "img" : "hn.jpg",
+        "stores": [
+            {
+                "address" : "56 Bà Triệu",
+                "img" : "hn01.jpg",
+                "district" : "Ba Đình"
+            },
+            {
+                "address" : "259 Kim Mã",
+                "img" : "hn02.jpg",
+                "district" : "Ba Đình"
+            },
+            {
+                "address" : "23M Hai Bà Trưng",
+                "img" : "hn03.jpg",
+                "district" : "Hoàn Kiếm"
+            }
+        ]
+    }
+]

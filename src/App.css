@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit|Mali|KoHo|Kaushan+Script');
+:root {
+    --blackTrans: rgba(100, 100, 100, 0.85);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* MODIFY BOOTSTRAP */
+.container-fluid{
+    /* padding-left:0 !important;
+    padding-right: 0 !important; */
+    height: 100vh;
+}
+/* WRAPPER */
+.wrapper{
+
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: 0;
+    border: 0;
+    outline: 0;
+}
+button:focus{
+    outline: 0!important;
+    cursor: pointer;
+}
+/*  HEADER CSS BEGIN*/
+.header{
+    width: 100vw;
+    /* background-color: #f1f1f1; */
+    position: fixed;
+    /* z-index: 2; */
+    transition-duration: .3s;
+    z-index: 100;
+}
+.header-background{
+    background: white;
+}
+.header-logo{
+    height: 70px;
+}
+.header-menu-button{
+    background: none;
+    border:0;
+    color: #f1f1f1;
+    font-size: 30px;
+    line-height: 70px;
+    margin-right: 20px;
+    transition-duration: .3s;
+}
+/* HEADER CSS END */
+
+.nav-image{
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: -100;
+    background-position: center center;
+}
+.img-content{
+    margin-top: 30vh;
+    display: block;
+    height: 100vh;
+}
+.img-content-text{
+    font-family: 'Mali', cursive;
+    color: white;
+    font-size: 6vw;
+}
+.img-content-button{
+    background: white;
+    color: #639700;
+    padding: 12px;
+    border-radius: 6px;
+    font-family: 'Niramit', sans-serif;
+    width: 190px;
+}
+.img-content-button:hover{
+    cursor: pointer;
+    background: #f1f1f1f1;
+}
+/* LANDING-CONTENT */
+.landing-content{
+    min-height: 100vh;
+    background-image: url("./img/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.sushi-img{
+    height: auto;
+    margin-top: 50px;
+}
+.ct-style{
+    padding-top: 8vh;
+}
+.sushi-content-text{
+    font-family: "Mali", cursive;
+}
+.describe-content{
+    color: #4f4949;
+    font-size: 18px;
+}
+/* STORE CHAINS BEGIN*/
+.store-chains{
+    min-height: 100vh;
+}
+.store-chains-col-1{
+    background: linear-gradient(var(--blackTrans), var(--blackTrans)), url("./img/background4-hd+.jpg");
+    background-repeat: no-repeat;
+}
+.stores-title{
+    font-family: "Mali", cursive;
+}
+.store-chains-col-2{
+    max-height: 100vh;
+}
+.detailStore{
+    height: 100px;
+    width: 200px;
+    display: block;
+}
+
+
+
+
+/* STORE CHAINS END */
+/* PART NEWS */
+.partnews{
+    cursor: pointer;
+}
+.partnews-content{
+    width: 100%;
+    height: 400px;
+    transition-duration: .3s
+}
+.hidden{
+    overflow: hidden;
+}
+.partnews-content:hover{
+    transform: scale(1.1) rotate(3deg);
+}
+.partnews-background{
+    background: black;
+    color:white;
+    height: 400px;
+    transition-duration: .3s;
+}
+.partnews-background:hover{
+    background: #FC5130;
+}
+
+/* PART END */
+/* CONTACT BEGIN */
+.contact{
+    min-height: 100vh;
+
+}
+
+.contact input, textarea{
+    width: 80%;
+    margin-top: 20px!important;
+    height: 60px;
+    padding: 20px!important;
+}
+.contact textarea{
+    height: 180px!important;
+}
+.contact input:focus{
+    outline: none;
+}
+.contact-background{
+    background: url('./img/background5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact-btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+}
+/* CONTACT END */
+/* SUSHI TYPE BEGIN */
+.sushi-type{
+    cursor: pointer;
+}
+.type-card{
+    height: 300px;
+    font-size: 2rem;
+    color: white;
+    font-family: "Kaushan Script", cursive;
+    background-size: cover!important;
+    background-position: center center!important;
+}
+.type-card-text{
+    font-size: 2.5rem;
+    transition-duration: 0.4s;
+}
+/* SUSHI TYPE END */
+/* CHAINS BEGIN */
+.citychainsimg{
+    height: 200px;
+    max-width: 240px;
+    display: block;
+}
+.storerow{
+    padding: 10px;
+    cursor: pointer;
+    transition: .1s;
+    border: 1px solid transparent;
+}
+.storerow:hover {
+    border: 1px solid white;
+
+}
+/* CHAINS END */
+/* FOOTER */
+.footer{
+    background: black;
+}
+.footer-name{
+    font-family: 'Mali', cursive;
+}
+.copyright{
+    font-size: 12px;
+}
+/* END FOOTER */
+/* CSSTransition BEGIN */
+.example-appear {
+  opacity: 0;
+}
+
+.example-appear.example-appear-active {
+  opacity: 0;
+  transition: 0s linear;
+}
+.example-enter {
+  opacity: 0;
+  transform: translateY(6%);
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: 1s linear;
+}
+.fade-enter{
+    opacity: 0;
+    transform: translateY(10%);
+}
+.fade-enter.fade-enter-active{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: 300ms linear;
+}
+.fade-leave{
+    opacity: 1;
+}
+.fade-leave.fade-leave-active{
+    opacity: 0;
+}
+.h-100vh{
+    height: 100vh;
+}
+/* CSSTransition END */
+/* RESPONSIVE */
+@media (min-width: 576px) {
+    .header-logo{
+        padding-left: 30px;
+    }
+ }
+
+ @media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .header-logo{
+        padding-left: 200px;
+    }
+ }
+
+@media (min-width: 1200px) {
+ }
